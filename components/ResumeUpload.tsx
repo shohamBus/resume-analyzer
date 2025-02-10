@@ -39,29 +39,36 @@ const ResumeUpload = () => {
     };
 
     return (
-        <div className="max-w-lg mx-auto bg-white p-6 rounded-xl shadow-lg">
-            <h2 className="text-2xl font-bold text-center mb-4">Upload Your Resume</h2>
-            <form onSubmit={handleSubmit} className="space-y-4">
-                <input
-                    type="file"
-                    accept=".pdf"
-                    onChange={handleFileChange}
-                    className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4
+        <div className=" bg-white p-6 rounded-xl shadow-lg w-full  flex-column">
+            <div className="justify-center">
+                <h2 className="text-2xl font-bold text-center mb-4">Upload Your Resume</h2>
+                <form onSubmit={handleSubmit} className="space-y-4">
+                    <input
+                        type="file"
+                        accept=".pdf"
+                        onChange={handleFileChange}
+                        className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4
             file:rounded-lg file:border file:border-gray-300 file:text-gray-700 
             hover:file:bg-gray-100"
-                />
-                {error && <p className="text-red-500 text-sm">{error}</p>}
+                    />
+                    {error && <p className="text-red-500 text-sm">{error}</p>}
 
-                <button
-                    type="submit"
-                    disabled={uploading}
-                    className="w-full bg-blue-600 text-white py-2 rounded-lg shadow-md
+                    <button
+                        type="submit"
+                        disabled={uploading}
+                        className="w-full bg-blue-600 text-white py-2 rounded-lg shadow-md
             hover:bg-blue-700 disabled:bg-gray-400"
-                >
-                    {uploading ? "Uploading..." : "Analyze Resume"}
-                </button>
-            </form>
-
+                    >
+                        {uploading ? "Uploading..." : "Analyze Resume"}
+                    </button>
+                </form>
+            </div>
+            {resume && <iframe
+                className="h-[600px] w-full"
+                src={URL.createObjectURL(resume)}
+                title="PDF Viewer"
+                onLoad={() => URL.revokeObjectURL(URL.createObjectURL(resume))}
+            />}
             {analysisResult && (
                 <div className="mt-6 p-4 bg-gray-50 rounded-lg shadow-md">
                     <h3 className="text-lg font-semibold">Extracted Text:</h3>

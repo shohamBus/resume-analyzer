@@ -1,0 +1,93 @@
+{
+    "jobs": [
+        {
+            "role": "FrontEnd Developer",
+            "keywords": {
+                "languages": ["JavaScript", "TypeScript", "HTML", "CSS"],
+                "frameworks": ["React", "Vue.js", "Angular"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years","7 years-more"],
+                "skills": ["Responsive Design", "Cross-Browser Compatibility", "Version Control (Git)", "Testing (Jest, Mocha)", "UI/UX Design", "Performance Optimization"]
+            }
+        },
+        {
+            "role": "BackEnd Developer",
+            "keywords": {
+                "languages": ["JavaScript", "Python", "Java", "Ruby"],
+                "frameworks": ["Node.js", "Django", "Spring", "Ruby on Rails"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years","7 years- more"],
+                "skills": ["Database Management", "API Development", "Authentication & Authorization", "Testing (JUnit, PyTest)", "Microservices", "Scalability"]
+            }
+        },
+        {
+            "role": "FullStack Developer",
+            "keywords": {
+                "languages": ["JavaScript", "Python", "Java"],
+                "frameworks": ["React", "Node.js", "Django"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years","7 years-more"],
+                "skills": ["FrontEnd & BackEnd Development", "Database Management", "API Development", "Version Control (Git)", "DevOps", "Cloud Services"]
+            }
+        },
+        {
+            "role": "Data Scientist",
+            "keywords": {
+                "languages": ["Python", "R", "SQL"],
+                "tools": ["TensorFlow", "PyTorch", "Pandas", "NumPy"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years","7 years-more"],
+                "skills": ["Data Analysis", "Machine Learning", "Statistical Analysis", "Data Visualization", "Big Data", "Data Cleaning"]
+            }
+        },
+        {
+            "role": "DevOps Engineer",
+            "keywords": {
+                "languages": ["Python", "Bash", "Go"],
+                "tools": ["Docker", "Kubernetes", "AWS", "Jenkins"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years"],
+                "skills": ["CI/CD Pipelines", "Infrastructure as Code", "Monitoring & Logging", "Version Control (Git)", "Automation", "Security"]
+            }
+        },
+        {
+            "role": "Mobile Developer",
+            "keywords": {
+                "languages": ["Swift", "Kotlin", "JavaScript"],
+                "frameworks": ["React Native", "Flutter", "SwiftUI"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years"],
+                "skills": ["Mobile App Development", "UI/UX Design", "Version Control (Git)", "Testing (JUnit, XCTest)", "Performance Optimization", "App Store Deployment"]
+            }
+        },
+        {
+            "role": "Cloud Engineer",
+            "keywords": {
+                "languages": ["Python", "Java", "Go"],
+                "platforms": ["AWS", "Azure", "Google Cloud"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years"],
+                "skills": ["Cloud Architecture", "Infrastructure as Code", "Security", "Monitoring & Logging", "Cost Management", "Disaster Recovery"]
+            }
+        },
+        {
+            "role": "Cybersecurity Specialist",
+            "keywords": {
+                "languages": ["Python", "C", "C++"],
+                "tools": ["Wireshark", "Metasploit", "Nmap"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years"],
+                "skills": ["Network Security", "Penetration Testing", "Incident Response", "Security Compliance", "Threat Analysis", "Vulnerability Assessment"]
+            }
+        },
+        {
+            "role": "AI/ML Engineer",
+            "keywords": {
+                "languages": ["Python", "Java", "C++"],
+                "tools": ["TensorFlow", "Keras", "PyTorch"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years"],
+                "skills": ["Machine Learning", "Deep Learning", "Data Analysis", "Model Deployment", "Natural Language Processing", "Computer Vision"]
+            }
+        },
+        {
+            "role": "UI/UX Designer",
+            "keywords": {
+                "tools": ["Sketch", "Figma", "Adobe XD"],
+                "experience": ["1-2 years", "2-4 years", "4-6 years"],
+                "skills": ["User Research", "Wireframing", "Prototyping", "Visual Design", "Interaction Design", "Usability Testing"]
+            }
+        }
+    ]
+}
